@@ -1,0 +1,61 @@
+!!! 5
+html(lange="en")
+
+	head
+		include meta
+
+		//Favicon
+		link( rel="shortcut icon", href="/favicon.ico")
+		link( rel="apple-touch-icon", href="/apple-touch-icon.png")
+
+		//Css 
+		link( rel="stylesheet", type="text/css", media="screen", href="./stylesheets/style.css")
+
+		//Other Javascript
+		script( src="./javascripts/jquery.min.js")
+		script( src="./javascripts/scripts.js")
+		//script( src="app/libs/ga.js")
+
+		//RSS TODO
+
+	body.home
+		#WebsiteApp
+			#Views
+			.wrapper#Wrapper
+
+				.header.Header
+					a.logo(href="./", title="Drapets, Textile Design") Drapets, Textile Design
+					.nav
+						//a Toddler
+						//a Boys
+						//a Girls
+						//a Men
+						//a Women
+						//a Home
+						a.studio(data-state="Active") The Studio
+
+					.direction
+						p Roslía de castro, 59
+						p Barcelona
+						p (+34) 93 435 05 00
+						p
+							a(href="mailto:contact@drapets.com") contact@drapets.com
+				.contents
+					//.collage.Collage
+						.img(style="background-image:url('./images/collage/collage_01.jpg');")
+						.img(style="background-image:url('./images/collage/collage_02.jpg');")
+						.img(style="background-image:url('./images/collage/collage_03.jpg');")
+						.img(style="background-image:url('./images/collage/collage_04.jpg');")
+						.img(style="background-image:url('./images/collage/collage_05.jpg');")
+						.img(style="background-image:url('./images/collage/collage_06.jpg');")
+
+					//.backgrounds.Backgrounds
+						.img( style="background-image:url('./images/bkgs/baby-girl.jpg');", background="#ffffff", state="Hidden")
+						.img( style="background-image:url('./images/bkgs/lil-girl.jpg');", background="#ffffff", state="Hidden")
+
+					.studio
+						.img( style="background-image:url('./images/bkgs/studio.jpg');", background="#ffffff", state="Shown")
+						.text
+							p Drapets was created in 2004 by Raquel Ruiz Ucles, intending to respond to the new trends in textile design, emerged with the advent of the new millennium.
+							p It was so ctom Study has been leading the way in both foreign fashion creations, children, lingerie, bathroom, as well as home design and stationery.
+							p In November 2012, with the addition of the Study Pagani team provided a background of over 40 years experience, Drapets offers not only quality and design, bringing together creative talent and business, but also a service to customers and the size of their ideas.

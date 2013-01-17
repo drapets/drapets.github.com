@@ -335,23 +335,15 @@
 			"file": "index.jade",
 			"settings":
 			{
-				"buffer_size": 1485,
+				"buffer_size": 2385,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/scripts.js",
+			"file": "CNAME",
 			"settings":
 			{
-				"buffer_size": 502,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "less/style.less",
-			"settings":
-			{
-				"buffer_size": 1533,
+				"buffer_size": 11,
 				"line_ending": "Windows"
 			}
 		}
@@ -436,17 +428,19 @@
 	},
 	"file_history":
 	[
+		"/C/Users/BernatFortet/Desktop/drapets-web/.gitignore",
+		"/C/Users/BernatFortet/Desktop/drapets-web/CNAME",
+		"/C/Users/BernatFortet/Desktop/drapets-web/js/scripts.js",
 		"/C/Users/BernatFortet/Desktop/drapets-web/less/style.less",
+		"/C/Users/BernatFortet/Desktop/drapets-web/DrapetsWeb.sublime-project",
 		"/C/Users/BernatFortet/Desktop/drapets-web/meta.jade",
 		"/C/Users/BernatFortet/Desktop/drapets-web/less/style-drapets.less",
 		"/C/Users/BernatFortet/Desktop/drapets-web/less/fonts.less",
 		"/F/Dropbox/Bernat/Projects/Webs/BernatFortet.com/common/less/fonts.less",
 		"/C/Users/BernatFortet/Desktop/webfontkit-20130106-103502/stylesheet.css",
-		"/C/Users/BernatFortet/Desktop/drapets-web/js/scripts.js",
 		"/C/Users/BernatFortet/Desktop/drapets-web/index.jade",
 		"/C/Users/BernatFortet/Desktop/drapets-web/less/style-global.less",
 		"/C/Users/BernatFortet/Desktop/drapets-web/basementSublimeProject.sublime-project",
-		"/C/Users/BernatFortet/Desktop/drapets-web/DrapetsWeb.sublime-project",
 		"/C/Users/BernatFortet/Desktop/card-fight-club/node/public/app-raw/controllers/app.coffee",
 		"/C/Users/BernatFortet/Desktop/card-fight-club/node/views/index.html",
 		"/C/Users/BernatFortet/Desktop/card-fight-club/node/views/index.jade",
@@ -561,9 +555,7 @@
 		"/C/Users/BernatFortet/Desktop/card-fight-club/app-raw/controllers/network_input_controller",
 		"/C/Users/BernatFortet/Desktop/magicPlayer.com/public/app-raw/controllers/app.coffee",
 		"/C/Users/BernatFortet/Desktop/card-fight-club/app-raw/controllers/controllers.coffee",
-		"/C/Users/BernatFortet/Desktop/magicPlayer.com/public/less/style.less",
-		"/C/Users/BernatFortet/Desktop/magicPlayer.com/public/less/style-magic.less",
-		"/C/Users/BernatFortet/Desktop/magicPlayer.com/public/app-raw/views/game.jade"
+		"/C/Users/BernatFortet/Desktop/magicPlayer.com/public/less/style.less"
 	],
 	"find":
 	{
@@ -744,7 +736,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -752,15 +744,15 @@
 					"file": "index.jade",
 					"settings":
 					{
-						"buffer_size": 1485,
+						"buffer_size": 2385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								889,
-								889
+								741,
+								741
 							]
 						],
 						"settings":
@@ -769,7 +761,8 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 399.0,
@@ -779,18 +772,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "js/scripts.js",
+					"file": "CNAME",
 					"settings":
 					{
-						"buffer_size": 502,
+						"buffer_size": 11,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								11,
+								11
 							]
 						],
 						"settings":
@@ -798,42 +791,10 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "less/style.less",
-					"settings":
-					{
-						"buffer_size": 1533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								864,
-								864
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 247.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1425,6 +1386,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 285.0,
+	"side_bar_width": 259.0,
 	"status_bar_visible": true
 }

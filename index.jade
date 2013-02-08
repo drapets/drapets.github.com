@@ -19,43 +19,35 @@ html(lange="en")
 		//RSS TODO
 
 	body.home
-		#WebsiteApp
-			#Views
-			.wrapper#Wrapper
 
-				.header.Header
-					a.logo(href="./", title="Drapets, Textile Design") Drapets, Textile Design
-					.nav
-						//a Toddler
-						//a Boys
-						//a Girls
-						//a Men
-						//a Women
-						//a Home
-						a.studio(data-state="Active") The Studio
+		section.content
+			.inner
+				.studio
+					article.text
+						p Drapets was created in 2004 by Raquel Ruiz Ucles, aiming to meet the latest trends in textile design that appeared with the coming of the new millenium.
+						p Since then, the studio has endeavored to create outwear, children's wear, lingerie and swimwear clothes, as well as upholstery and stationery designs.
+						p In November 2012, with the integration of the team of Estudi Pagani, which contributes with over 40 years of experience, Drapets not only offers quality and state of the art design, but also, combining creative and marketing skills, a service tailored to customer needs and ideas.
 
-					.direction
-						p Roslía de castro, 59
-						p Barcelona
-						p (+34) 93 435 05 00
-						p
-							a(href="mailto:contact@drapets.com") contact@drapets.com
-				.contents
-					//.collage.Collage
-						.img(style="background-image:url('./images/collage/collage_01.jpg');")
-						.img(style="background-image:url('./images/collage/collage_02.jpg');")
-						.img(style="background-image:url('./images/collage/collage_03.jpg');")
-						.img(style="background-image:url('./images/collage/collage_04.jpg');")
-						.img(style="background-image:url('./images/collage/collage_05.jpg');")
-						.img(style="background-image:url('./images/collage/collage_06.jpg');")
 
-					//.backgrounds.Backgrounds
-						.img( style="background-image:url('./images/bkgs/baby-girl.jpg');", background="#ffffff", state="Hidden")
-						.img( style="background-image:url('./images/bkgs/lil-girl.jpg');", background="#ffffff", state="Hidden")
+				.images
+					img( src="./images/frame_image_01.jpg", alt="Drapets Textile Design")
 
-					.studio
-						.img( style="background-image:url('./images/bkgs/studio.jpg');", background="#ffffff", state="Shown")
-						.text
-							p Drapets was created in 2004 by Raquel Ruiz Ucles, aiming to meet the latest trends in textile design that appeared with the coming of the new millenium.
-							p Since then, the studio has endeavored to create outerwear, children's wear, lingerie and bathing clothes, as well as upholstery and stationery designs.
-							p In November 2012, with the integration of the team of Estudi Pagani, which contributes with over 40 years of experience, Drapets not only offers quality and state of the art design, but also, combining creative and marketing skills, a service tailored to customer needs and ideas.
+		header.Header
+			h1
+				a.logo(href="./", title="Drapets, Textile Design") Drapets, Textile Design
+			//nav
+				a Toddler
+				a Boys
+				a Girls
+				a Men
+				a Women
+				a Home
+				a.studio(data-state="Active") The Studio
+
+			footer.direction
+				address
+					p Roslía de castro, 59
+					p Barcelona
+					p (+34) 93 435 05 00
+					p
+						a(href="mailto:contact@drapets.com") contact@drapets.com

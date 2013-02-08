@@ -335,7 +335,7 @@
 			"file": "index.jade",
 			"settings":
 			{
-				"buffer_size": 2385,
+				"buffer_size": 2401,
 				"line_ending": "Windows"
 			}
 		},
@@ -345,6 +345,14 @@
 			{
 				"buffer_size": 11,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3895,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -736,7 +744,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -744,15 +752,15 @@
 					"file": "index.jade",
 					"settings":
 					{
-						"buffer_size": 2385,
+						"buffer_size": 2401,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								741,
-								741
+								1197,
+								1197
 							]
 						],
 						"settings":
@@ -765,7 +773,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 779.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -795,6 +803,37 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3802,
+								3802
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
